@@ -1,0 +1,33 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+
+}
+
+blockquote {
+    border-left:solid 5px rgb(221, 221, 221);
+    font-style: italic;
+}
+
+th {
+    background-color: rgb(161, 156, 156);
+}
+
+th,
+td {
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+tr {
+    background-color: beige;
+}
