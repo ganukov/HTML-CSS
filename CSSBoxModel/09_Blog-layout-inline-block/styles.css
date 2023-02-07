@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    font-family: Helvetica, sans-serif;
+}
+
+header,
+p {
+    width: 750px;
+    vertical-align: middle;
+}
+
+h2 {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+aside {
+    float: right;
+    margin-right: 100px;
+
+}

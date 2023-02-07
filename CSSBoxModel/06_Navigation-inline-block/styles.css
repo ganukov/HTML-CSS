@@ -1,0 +1,38 @@
+ul, li {
+    display: inline-block;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+h2 {
+    display: inline;
+    padding-right: 100px;
+    float: left;
+    font-size: 40px;
+
+}
+
+header {
+    border-bottom: solid 2px black;
+    margin-left: 30px;
+
+}
+
+p {
+    line-height: 24px;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    text-indent: 30px;
+    margin-left: 30px;
+}
+
+nav {
+    display: inline-block;
+}
