@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: gray;
+    width: 150vh;
+}
+
+body,
+ul,
+li {
+    display: flex;
+}
+
+
+
+.gallery ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.gallery li {
+    border: 5px solid black;
+    padding: 10px 20px;
+    background-color: white;
+}

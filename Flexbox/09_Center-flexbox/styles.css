@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238,238,238);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card {
+    background-color: rgb(255,255,255);
+    flex-basis: 20%;
+    border-radius: 5px;
+    padding: 0px 30px;
+    height: 160px;
+}
+

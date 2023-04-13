@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px 25px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+header p {
+    width: 100%;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+     
+}
+
+a {
+    color: rgb(0,153,0);
+    text-decoration: none;
+}

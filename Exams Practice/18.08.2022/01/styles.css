@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+*,
+*::before,
+*::after {
+    font-family: "Mulish", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/form-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 15px 15px var(--shadows);
+    width: 60%;
+    /* height: 60%; */
+    border-radius: 20px;
+    padding: 5%;
+    overflow: hidden;
+}
+
+.rounded {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 2% 5%;
+}
+
+button {
+    background-color: rgb(168, 10, 10);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.names,
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+}
+
+.check {
+    margin: 2%;
+}
+
+
+.names>.input {
+    flex-basis: 50%;
+    margin-right: 0;
+}
+
+.names {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    margin-left: 0;
+}
+
+label {
+    font-size: smaller;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

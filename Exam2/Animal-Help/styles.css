@@ -1,0 +1,292 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+
+}
+
+.header {
+    padding: 16px 64px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #fff;
+}
+
+.header .logo-text {
+    margin-left: 32px;
+}
+
+.header .navigation {
+    margin-left: auto;
+    margin-right: 32px;
+}
+
+.header .nav-list {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+}
+
+.header .nav-list li {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+#hero {
+    background-color: #85dcff;
+    margin: 0 auto 48px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 96px;
+    margin-right: 96px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#hero .hero-title {
+    font-size: 40px;
+    line-height: 1.2;
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+.btns {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+#hero img {
+    width: 20%;
+    min-width: 500px;
+    margin-right: 60px;
+}
+
+#hero .btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    border-radius: 6px;
+}
+
+#hero-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 48px auto;
+}
+
+#hero-2 .rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+}
+
+#hero-2 .rows .row .fa-solid {
+    color: #85dcff;
+    margin-bottom: 56px;
+}
+
+#hero-2 .section-title {
+    margin-bottom: 32px;
+}
+
+#hero-2 .section-text {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 64px;
+}
+
+#hero-2 .row .title {
+    margin-bottom: 32px;
+}
+
+#hero-2 .row .text {
+    text-align: center;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+#hero-3 {
+    background-color: #85dcff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 48px auto;
+    justify-content: center;
+}
+
+#hero-3 .title-3 {
+    text-align: center;
+    margin: 64px;
+    font-size: xx-large;
+}
+
+#hero-3 .list-items {
+    display: flex;
+    justify-content: center;
+
+}
+
+#hero-3 .list-item {
+    margin: 16px;
+}
+
+#hero-3 .list-items .column1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+#hero-3 .list-items .culumn2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+#hero-3 .btn3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+#hero-3 .btn3 .btn {
+    width: 200px;
+    height: 50px;
+}
+
+#hero-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto 48px auto;
+
+}
+
+#hero-4 .images {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px;
+}
+
+#hero-4 .title4 {
+    font-weight: 1000;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+#hero-4 .text4 {
+    font-weight: 500;
+}
+
+
+#hero-4 .subtitle {
+    margin: 32px;
+}
+
+#hero-4 .article {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+
+#hero-4 .article-header {
+    height: 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #85dcff;
+    padding: 24px;
+}
+
+#hero-4 .acticle-text {
+    height: 60%;
+    padding: 32px;
+    font-weight: bold;
+}
+
+#hero-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-5 img {
+    width: 30%;
+}
+
+#hero-5 .info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero-5 .title5 {
+    margin-top: 40px;
+}
+
+#hero-5 .text5 {
+    margin-top: 32px;
+}
+
+#hero-5 .inputs {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+#hero-5 .inputs .btn {
+    margin-top: 32px;
+    width: 50%;
+    height: 50px;
+}
+
+
+#hero-5 .inputs input {
+    height: 50px;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 16px 64px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #fff;
+}
+
+footer .icons {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    
+}
+
+footer span{
+    margin-left:  auto;
+    font-weight: bold;
+}

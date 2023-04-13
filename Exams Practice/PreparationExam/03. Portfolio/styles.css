@@ -1,0 +1,233 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* Global styles */
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+
+}
+
+.page-section {
+    max-width: 1880px;
+    height: calc(100vh - 1.5rem);
+    margin: 24px auto;
+    background-color: #efefef;
+    padding: 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-section .title {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 2.5rem;
+}
+
+.page-section .description {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.page-section .divider.vertical {
+    height: 6rem;
+    width: 1px;
+    background-color: black;
+}
+
+.page-section .section-text {
+    flex: 0 0 40%;
+}
+
+.page-section .section-img {
+    flex: 0 1 35%;
+}
+
+/* Hero */
+
+#hero.page-section {
+    position: relative;
+}
+
+#hero .navigation {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+#hero .hero-img {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+
+
+/* Camera */
+#camera .divider.horizontal {
+    height: 1px;
+    width: 6rem;
+    background-color: black;
+
+}
+
+#camera ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#camera .icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#camera .icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: gray;
+    color: white;
+    position: relative;
+}
+
+#camera .icons .icon i {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#camera .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#camera .section-text h1 .divider.horizontal {
+    margin-right: 3rem;
+}
+
+.page-section3 {
+    max-width: 1880px;
+    margin: 24px auto;
+    background-color: #efefef;
+
+}
+
+.page-section3 img {
+    width: 1880px;
+    height: 100vh;
+
+}
+
+#bridge .bridge-img {
+    max-width: 750px;
+    margin-right: 6rem;
+}
+
+.page-section5 {
+    max-width: 1880px;
+    height: calc(100vh - 1.5rem);
+    margin: 24px auto;
+    background-color: #efefef;
+    padding: 3rem 5rem;
+    position: relative;
+}
+
+
+
+#gallery .images {
+    max-width: 450px;
+}
+
+#gallery .images.one {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#gallery .images.two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    z-index: 1;
+    max-width: 550px;
+}
+
+#gallery .images.three {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-70%, -50%);
+
+}
+
+#contacts {
+    flex-direction: column;
+    
+}
+
+#contacts .form {
+    max-width: 70%;
+    margin: 3rem auto 0 auto;
+    gap: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "submit submit";
+}
+
+
+#contacts .form input,
+#contacts .form textarea {
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+#contacts .form textarea {
+    resize: none;
+}
+
+#contacts .form .email {
+    grid-area: email;
+}
+#contacts .form .subject {
+    grid-area: subject;
+}
+#contacts .form .msg {
+    grid-area: msg;
+}
+
+
+#contacts .form .btn {
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    grid-area: submit;
+}
+
+#contacts .description {
+    width: 50%;
+}
